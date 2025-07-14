@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: rgba(28, 36, 52, 1);
+    --color-secondary: #00aeff;
+    --color-gray: hsla(240, 4%, 46%, 1);
+    --color-body: hsla(210, 40%, 96%, 1);
+    --color-glow: hsla(210, 7%, 48%, 1);
+
+    --animate-side-up-bounce: slideUpBounce 0.8s ease-out;
+
+    @keyframes slideUpBounce {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        60% {
+            transform: translateY(-10px);
+            opacity: 1;
+        }
+        80% {
+            transform: translateY(5px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
