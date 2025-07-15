@@ -10,12 +10,18 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className="ml-12">
-                    <a className="flex flex-col transition-all ease-in cursor-pointer font-semibold after:content-[''] after:h-1 after:w-0 hover:after:w-full hover:after:transition-all hover:after:duration-300 duration-500 after:bg-blue-500">
+                    <a
+                        href="features"
+                        className="flex flex-col transition-all ease-in cursor-pointer font-semibold after:content-[''] after:h-1 after:w-0 hover:after:w-full hover:after:transition-all hover:after:duration-300 duration-500 after:bg-blue-500"
+                    >
                         Features
                     </a>
                 </li>
                 <li>
-                    <a className="flex flex-col transition-all ease-in cursor-pointer font-semibold after:content-[''] after:h-1 after:w-0 hover:after:w-full hover:after:transition-all hover:after:duration-300 duration-500 after:bg-blue-500">
+                    <a
+                        href="contact us"
+                        className="flex flex-col transition-all ease-in cursor-pointer font-semibold after:content-[''] after:h-1 after:w-0 hover:after:w-full hover:after:transition-all hover:after:duration-300 duration-500 after:bg-blue-500"
+                    >
                         Contact Us
                     </a>
                 </li>

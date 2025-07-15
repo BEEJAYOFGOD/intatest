@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Calendar, Search, MessageCircle, BarChart3 } from "lucide-react";
-import { ArticleCard } from "./article.component";
+import { ArticleCard } from "../component/article.component";
 
 const featuresData = [
     {

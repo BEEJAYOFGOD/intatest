@@ -1,9 +1,9 @@
 import "./App.css";
 import Navbar from "./component/Navbar";
-import Hero from "./component/hero.component";
-import FeaturesSection from "./component/feature.section";
-import ContentSchedulingSection from "./component/contentscheduling.section";
-import Footer from "./component/footer.component";
+import Hero from "./section/hero.section";
+import FeaturesSection from "./section/feature.section";
+import ContentSchedulingSection from "./section/contentscheduling.section";
+import Footer from "./section/footer.section";
 
 function App() {
     return (
